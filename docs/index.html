@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftLauncher — самодельный лаунчер Minecraft</title>
+    <meta name="description" content="Самодельный лаунчер Minecraft на Python. Экземпляры, мод-браузер Modrinth, скины Ely.by, сетевая игра.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #1e1e1e;
+            color: #d4d4d4;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { color: #4CAF50; font-size: 42px; margin-bottom: 10px; }
+        h2 { color: #4CAF50; font-size: 24px; margin: 30px 0 15px; }
+        p { margin-bottom: 15px; }
+        .subtitle { font-size: 18px; color: #999; margin-bottom: 25px; }
+        .buttons { display: flex; gap: 10px; flex-wrap: wrap; margin: 25px 0; }
+        .button {
+            display: inline-block; background: #4CAF50; color: white;
+            padding: 14px 28px; text-decoration: none; border-radius: 10px;
+            font-weight: bold; font-size: 16px; transition: all 0.2s;
+        }
+        .button:hover { background: #3d8b40; transform: translateY(-2px); }
+        .button.secondary { background: #555; }
+        .button.secondary:hover { background: #333; }
+        ul { margin-left: 25px; margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+        .screenshots { display: grid; grid-template-columns: 1fr; gap: 15px; margin: 20px 0; }
+        .screenshots img { width: 100%; border-radius: 10px; border: 1px solid #333; }
+        .footer {
+            margin-top: 50px; padding-top: 20px;
+            border-top: 1px solid #333; color: #777;
+            font-size: 14px; text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⛏ CraftLauncher</h1>
+        <p class="subtitle">Самодельный лаунчер Minecraft на Python</p>
+
+        <div class="buttons">
+            <a class="button" href="https://github.com/NNNN455/CraftLauncher/releases">📥 Скачать .exe</a>
+            <a class="button secondary" href="https://github.com/NNNN455/CraftLauncher">📂 GitHub</a>
+        </div>
+
+        <h2>✨ Возможности</h2>
+        <ul>
+            <li>📦 <strong>Экземпляры</strong> — изоляция миров и модов</li>
+            <li>🧩 <strong>Мод-браузер</strong> с фильтрами категорий (Modrinth)</li>
+            <li>🎨 <strong>Скины Ely.by</strong> + поддержка 2FA</li>
+            <li>🌐 <strong>Сетевая игра</strong> через Radmin VPN / Hamachi</li>
+            <li>⚙ <strong>Установка Forge/Fabric</strong> прямо в лаунчере</li>
+            <li>🖥 <strong>Консоль логов</strong> в реальном времени</li>
+            <li>💾 <strong>Автоопределение RAM</strong> системы</li>
+            <li>🎨 <strong>Настраиваемый фон</strong> и темы</li>
+        </ul>
+
+        <h2>📸 Скриншоты</h2>
+        <div class="screenshots">
+            <img src="main_window.png" alt="Главное окно">
+            <img src="mod_browser.png" alt="Мод-браузер">
+            <img src="network.png" alt="Сетевая игра">
+            <img src="forge_install.png" alt="Установка Forge">
+        </div>
+
+        <h2>📖 Подробнее</h2>
+        <p>
+            <a href="https://github.com/NNNN455/CraftLauncher#readme" style="color: #4CAF50;">
+                Полное описание в README →
+            </a>
+        </p>
+
+        <div class="footer">
+            Сделано с ❤️ для Minecraft-сообщества · MIT License
+        </div>
+    </div>
+</body>
+</html>
